@@ -1,101 +1,103 @@
-# 🌿 Indoor Plant Care Simulator (C++)
+# C++ Mini Projects
 
-## 📌 Overview
+A collection of beginner to intermediate **C++ mini projects** created for practicing programming concepts, problem solving, and object-oriented programming.
 
-This project is a C++ program built using Object-Oriented Programming (OOP) concepts. It simulates the care and health of indoor plants by allowing users to input details such as watering, sunlight, and physical damage.
-
-The program evaluates plant health based on these inputs and provides feedback on whether the plant is healthy, stressed, or weak.
+These projects cover different areas such as **games, utilities, simulations, and networking concepts**.
 
 ---
 
-## 💡 Inspiration
+## Technologies Used
 
-This project was inspired by a real-life experience. Today, my indoor plant accidentally fell, and after that, it started showing signs of stress like yellowing leaves and shedding.
-
-This incident motivated me to create a program that simulates how different environmental factors and accidents can affect plant health.
-
----
-
-## ⚙️ Features
-
-* Works for **any indoor plant** (user-defined plant name)
-* Simulates:
-
-  * Water levels (overwatering & underwatering)
-  * Sunlight exposure
-  * Physical shock (e.g., plant falling)
-* Displays plant health status
-* Interactive user input
+- C++
+- OOP Concepts
+- Loops & Conditions
+- Functions
+- User Input Handling
+- Basic Networking Logic
 
 ---
 
-## 🧠 Concepts Used
+## Projects Included
 
-* Classes and Objects
-* Encapsulation
-* Constructors
-* Member Functions
-* Conditional Statements
-
----
-
-## 🖥️ How to Run
-
-1. Save the code in a file:
-
-   ```
-   indoor_plant.cpp
-   ```
-
-2. Compile the program:
-
-   ```
-   g++ indoor_plant.cpp -o indoor_plant
-   ```
-
-3. Run the program:
-
-   ```
-   ./indoor_plant
-   ```
+| Project Name | Description | Concepts Used |
+|--------------|-------------|----------------|
+| Plant Care Simulator | Suggests plant care actions based on plant condition. | Conditions, Functions |
+| Quiz Game | Interactive quiz program with score calculation. | Loops, Conditions, User Input |
+| Password Generator | Generates random passwords. | Randomization, Strings |
+| Checksum Program | Demonstrates checksum logic for error detection. | Networking Concepts, Binary Logic |
+| Outfit Suggestion System | Suggests outfits based on user preferences or conditions. | Decision Making, Conditions |
+| Palindrome Checker | Checks whether input is a palindrome or not. | Strings, Loops |
+| Prime Number Checker | Checks if a number is prime. | Loops, Mathematical Logic |
 
 ---
 
-## 📷 Sample Input
+## Learning Objectives
 
-```
-Enter plant name: Jade Plant
-Did the plant fall? (1 = Yes, 0 = No): 1
-Enter amount of water (0-100): 40
-Enter sunlight hours per day: 5
+This repository was built to strengthen understanding of:
+
+✔ C++ Programming  
+✔ Object-Oriented Programming (OOP)  
+✔ Problem Solving  
+✔ User Interaction in Console Applications  
+✔ Logic Building  
+✔ Basic Computer Networking Concepts
+
+---
+
+## How To Run
+
+Compile a project file:
+
+```bash
+g++ filename.cpp -o output
 ```
 
-## 📊 Sample Output
+Run the executable:
 
+```bash
+./output
 ```
-Plant experienced physical shock!
 
---- Jade Plant Status ---
-Water Level: 80
-Sunlight Hours: 5
-Health: 65
-Plant is moderately stressed ⚠️
+### Example
+
+```bash
+g++ quizgame.cpp -o quizgame
+./quizgame
 ```
 
 ---
 
-## 🚀 Future Improvements
+## Repository Structure
 
-* Add menu-driven program (continuous interaction)
-* Introduce plant categories (succulents, ferns, flowering plants)
-* Use inheritance for different plant types
-* Track plant health over multiple days
-* Add graphical interface (GUI)
+```text
+cpp-mini-projects
+│
+├── PlantCareSimulator.cpp
+├── QuizGame.cpp
+├── PasswordGenerator.cpp
+├── Checksum.cpp
+├── OutfitSuggestion.cpp
+├── PalindromeChecker.cpp
+└── PrimeChecker.cpp
+```
 
 ---
 
-## 👨‍💻 Author
+## Future Improvements
 
-Created by AAKRITI SINGH
+- Add File Handling Projects
+- Add GUI-based C++ Projects
+- Improve Project Documentation
+- Add More OOP-based Applications
 
 ---
+
+## Author
+
+**Aakriti Singh**
+
+GitHub: https://github.com/Aakriti0109
+
+---
+
+⭐ Created for practicing **C++ programming concepts and project development**.
